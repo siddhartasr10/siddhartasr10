@@ -9,7 +9,7 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/" alt="Imagen random"/>
+<img align="right" height="150" src="https://github.com/user-attachments/assets/7239f19b-472a-4612-ad0b-c76d677541e1" alt="Imagen random"/>
 
 ###
 
@@ -39,7 +39,7 @@
   <img src="https://github.com/user-attachments/assets/b13bb970-f855-486b-ad7f-9f3852a1f305" height="30" alt="symfony logo"  />
    <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30" alt="laravel logo"  />
-     <img width="12" />
+   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="emacs logo"  />
    <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/emacs/emacs-original.svg" height="30" alt="emacs logo"  />
@@ -66,3 +66,4 @@
 <img src="https://github.com/siddhartasr10/siddhartasr10/blob/main/dist/custom2.svg" alt="Snake animation" />
 
 ###
+
