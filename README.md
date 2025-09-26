@@ -9,7 +9,7 @@
 
 ###
 
-<img align="right" height="150" src="https://github.com/user-attachments/assets/7239f19b-472a-4612-ad0b-c76d677541e1" alt="Imagen random"/>
+<img align="right" height="150" src="https://github.com/user-attachments/assets/934aa8e7-2182-427d-be4c-2f4051b3ce6a" alt="Imagen random"/>
 
 ###
 
@@ -66,4 +66,3 @@
 <img src="https://github.com/siddhartasr10/siddhartasr10/blob/main/dist/custom2.svg" alt="Snake animation" />
 
 ###
-
