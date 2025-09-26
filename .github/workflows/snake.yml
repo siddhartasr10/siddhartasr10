@@ -11,7 +11,7 @@ on:
   # run on every push on the master branch
   push:
     branches:
-    - master
+    - main 
 
 
 
@@ -23,7 +23,6 @@ jobs:
     timeout-minutes: 5
 
     steps:
-
       - name: Change worskpace to main
         uses: actions/checkout@v3   # get repo files & .git
 
@@ -38,6 +37,9 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/custom.gif?palette=github-dark&color_snake=#13768a&color_dots=#ffffff,#b32d00,#cc3300,#e63900,#ff4000
+            dist/custom.svg?palette=github-dark&color_snake=#13768a&color_dots=#ffffff,#b32d00,#cc3300,#e63900,#ff4000
+            dist/custom2.svg?palette=github-dark&color_snake=#13768a&color_dots=#1d2530,#b32d00,#cc3300,#e63900,#ff4000
           # list of files to generate.
           # one file per line. Each output can be customized with options as query string.
           #
@@ -49,8 +51,6 @@ jobs:
           #                 Exactly 5 colors are expected.
 
 
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: Commit and push generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
